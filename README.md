@@ -39,5 +39,8 @@ Searching a range of frequencies is not recommended with the BladeRF 2.0, as it 
 cd ~/LTE-Cell-Scanner/build/src
 sudo make install
 ```
-CAUTION: This will overwrite any previous installation of LTE Cell Scanner. For example, if using DragonOS FocalX, it will overwite the CellSearch pre-installed out-of-the-box) I recommend renaming the CellSearch binary to 'CellSearch-BladeRF' and then manually copying it to /usr/local/bin/
+CAUTION: This will overwrite any previous installation of LTE Cell Scanner. For example, if using DragonOS FocalX, it will overwite the CellSearch pre-installed out-of-the-box) I recommend renaming the CellSearch binary to 'CellSearch-BladeRF' and then manually copying it to the /usr/local/bin/ directory. You can do that with a single command in DragonOS FocalX:
+```
+sudo cp -v ~/LTE-Cell-Scanner/build/src/CellSearch /usr/local/bin/CellSearch-BladeRF
+```
 
