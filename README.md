@@ -1,3 +1,5 @@
+This is a fork of LTE-Cell-Scanner with CellSearch patched to work with BladeRF 2.0 hardware.
+
 # An enhanced LTE Cell Scanner/tracker
 ![alt text](matlab_result_example.jpg)
 - Support both FDD and TDD
